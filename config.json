@@ -1,30 +1,30 @@
 {
-  "PhoneAsItem": {
-    "enabled": false,
-    "exportResource": "my-core-resource",
-    "exportFunction": "myCheckerFunction"
-  },
-  "general": {
-    "useResourceIntegration": false,
-    "toggleKey": "f1",
-    "toggleCommand": "phone",
-    "defaultLanguage": "en"
-  },
-  "profanityFilter": {
-    "enabled": false,
-    "badWords": ["esx"]
-  },
-  "database": {
-    "useIdentifierPrefix": false,
-    "playerTable": "users",
-    "identifierColumn": "identifier",
-    "identifierType": "license",
-    "profileQueries": true,
-    "phoneNumberColumn": "phone_number"
-  },
-  "debug": {
-    "level": "error",
-    "enabled": true,
-    "sentryEnabled": true
-  }
+    "PhoneAsItem": {
+        "enabled": true,
+        "exportResource": "qb-npwd",
+        "exportFunction": "HasPhone"
+    },
+    "general": {
+        "useResourceIntegration": true,
+        "toggleKey": "M",
+        "toggleCommand": "phone",
+        "defaultLanguage": "en"
+    },
+    "profanityFilter": {
+        "enabled": false,
+        "badWords": ["esx"]
+    },
+    "database": {
+        "useIdentifierPrefix": false,
+        "playerTable": "players",
+        "identifierColumn": "citizenid",
+        "identifierType": "license",
+        "profileQueries": true,
+        "phoneNumberColumn": "phone_number"
+    },
+    "debug": {
+        "level": "error",
+        "enabled": true,
+        "sentryEnabled": true
+    }
 }
